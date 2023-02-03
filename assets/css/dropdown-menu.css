@@ -1,0 +1,39 @@
+.dropdown-menu {
+    background-color: whitesmoke;
+    display: none;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem 1.1rem;
+    position: absolute;
+    right: -22px;
+    width: 100px;
+}
+
+.link--dropdown::before {
+    bottom: 10px;
+    content: "";
+    height: 10px;
+    left: -15px;
+    position: absolute;
+    width: 10px;
+}
+
+.link--tech::before {
+    background-color: blue;
+}
+
+.link--sport::before {
+    background-color: yellow;
+}
+
+.link--business::before {
+    background-color: red;
+}
+
+.link--health::before {
+    background-color: green;
+}
+
+.show {
+    display: flex;
+}

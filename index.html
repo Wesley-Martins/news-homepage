@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/navbar/navbar.css">
     <link rel="stylesheet" href="./assets/css/navbar/navbar-list.css">
+    <link rel="stylesheet" href="./assets/css/navbar/navbar-item.css">
     <link rel="stylesheet" href="./assets/css/navbar/link.css">
     <link rel="stylesheet" href="./assets/css/main/main.css">
     <link rel="stylesheet" href="./assets/css/banner/banner-container.css">
@@ -34,6 +35,7 @@
     <link rel="stylesheet" href="./assets/css/popular/popular-item.css">
     <link rel="stylesheet" href="./assets/css/popular/popular-article.css">
     <link rel="stylesheet" href="./assets/css/sidebar.css">
+    <link rel="stylesheet" href="./assets/css/dropdown-menu.css">
 </head>
 <body>
     <div class="main-layout">
@@ -59,7 +61,13 @@
                         <a class="link" href="#">Tendências</a>
                     </li>
                     <li class="navbar__item">
-                        <a class="link" href="#">Categorias</a>
+                        <a class="link link--categories" href="#">Categorias</a>
+                        <div class="dropdown-menu">
+                            <a class="link link--dropdown link--tech" href="#">Tecnologia</a>
+                            <a class="link link--dropdown link--sport" href="#">Esporte</a>
+                            <a class="link link--dropdown link--business" href="#">Business</a>
+                            <a class="link link--dropdown link--health" href="#">Saúde</a>
+                        </div>
                     </li>
                 </ul>
             </nav>

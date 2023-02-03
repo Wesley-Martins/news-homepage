@@ -2,6 +2,8 @@ const links = document.querySelectorAll(".link");
 const sidebar = document.querySelector(".sidebar");
 const openIcon = document.querySelector(".open-icon");
 const closeIcon = document.querySelector(".close-icon");
+const dropdownMenu = document.querySelector(".dropdown-menu");
+const dropdownIcon = document.querySelector(".link--categories");
 
 // verifica se o mouse esta em cima do elemento e aumenta o width do ::after dele
 links.forEach(link => {
@@ -24,3 +26,8 @@ openIcon.addEventListener("click", () => {
 closeIcon.addEventListener("click", () => {
     sidebar.style.setProperty("right", "-230px");
 });
+
+// esconde e mostra o dropdown-menu 
+dropdownIcon.addEventListener("click", () => {
+    dropdownMenu.classList.toggle("show");
+})

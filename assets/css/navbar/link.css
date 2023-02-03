@@ -14,3 +14,14 @@
     transition: .2s ease-in-out;
     width: var(--after-width, 0);
 }
+
+.link--categories::before {
+    background-image: url(../../images/dropdown-icon.svg);
+    background-size: cover;
+    bottom: -2px;
+    content: "";
+    height: 18px;
+    position: absolute;
+    right: -22px;
+    width: 18px;
+}
