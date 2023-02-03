@@ -1,0 +1,21 @@
+.principal__btn {
+    color: white;
+    background-color: rgb(243,92,83);
+    border: none;
+    box-shadow: 2px 2px rgb(67, 67, 67);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 10px;
+    transition: 0.1s ease-in-out;
+    width: 150px;
+}
+
+.principal__btn:hover {
+    cursor: pointer;
+}
+
+.principal__btn:active {
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}

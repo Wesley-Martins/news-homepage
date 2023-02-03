@@ -1,0 +1,19 @@
+.main-layout {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    margin: 0 5%;
+    min-height: 100vh;
+}
+
+@media (max-width: 860px) {
+    .main-layout {
+        margin: 0 2.5%;;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-layout {
+        display: flex;
+        flex-direction: column;
+    }
+}

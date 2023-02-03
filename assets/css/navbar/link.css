@@ -1,0 +1,16 @@
+.link {
+    color: var(--soft-gray-color);
+    position: relative;
+    text-decoration: none;
+}
+
+.link::after {
+    background-color: rgb(30, 29, 29);
+    content:"";
+    display: block;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    transition: .2s ease-in-out;
+    width: var(--after-width, 0);
+}

@@ -1,0 +1,10 @@
+.popular__article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.popular__article span {
+    color: rgb(185, 185, 185);
+    font-size: 1.8rem;
+}

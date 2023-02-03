@@ -1,0 +1,26 @@
+.banner__container {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+@media (min-width: 200px) {
+    .banner__container {
+        background: url(../../images/image-web-3-mobile.jpg);
+        height: 300px;
+    }
+}
+
+@media (min-width: 500px) {
+    .banner__container {
+        background: url(../../images/image-web-3-desktop.jpg);
+    }
+}
+
+@media (min-width: 769px) {
+    .banner__container {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        height: 100%;
+    }
+}

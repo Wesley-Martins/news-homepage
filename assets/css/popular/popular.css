@@ -1,0 +1,14 @@
+.popular {
+    align-items: flex-start;
+    display: flex;
+    gap: 1.5rem;
+    grid-column: 1/4;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .popular {
+        flex-direction: column;
+    }
+}

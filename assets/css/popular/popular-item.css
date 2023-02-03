@@ -1,0 +1,6 @@
+.popular__item {
+    align-items: flex-start;
+    display: flex;
+    flex-basis: 100%;
+    gap: 1rem;
+}

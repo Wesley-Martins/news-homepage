@@ -1,0 +1,9 @@
+.open-icon:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 769px) {
+    .open-icon {
+        display: none;
+    }
+}

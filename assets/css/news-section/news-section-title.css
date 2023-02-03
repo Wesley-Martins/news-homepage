@@ -1,0 +1,10 @@
+.news-section__title__container {
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.news-section__title {
+    color: rgb(233,174,82);
+    font-size: 1.8rem;
+}

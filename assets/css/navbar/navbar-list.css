@@ -1,0 +1,10 @@
+.navbar__list {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .navbar__list {
+        display: none;
+    }
+}

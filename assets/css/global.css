@@ -1,0 +1,20 @@
+:root {
+    --dark-blue-color: rgb(0,0,26);
+    --soft-gray-color: rgb(109, 109, 109);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, span {
+    font-family: Inter-ExtraBold, sans-serif;
+    font-weight: bold;
+}
+
+p, a {
+    color: var(--soft-gray-color);
+    font-size: 15px;
+    font-family: Inter-Regular, sans-serif;
+    line-height: 1.5rem;
+}

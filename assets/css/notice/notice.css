@@ -1,0 +1,10 @@
+.notice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.notice--border {
+    border-bottom: 1px solid rgb(186, 180, 180);
+}
